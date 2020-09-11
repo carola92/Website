@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79220ff7-9d68-451c-a213-8c0e755a89a4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V9DvvSLIV0vAGXLrKt5CIxb9U3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/STATIC/nieuwe_site" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carola\Desktop\Website PE1MUL nieuw\STATIC\oude site" />
+      <recent name="C:\Users\carola\Desktop\Website PE1MUL nieuw\STATIC" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carola\Desktop\Website PE1MUL nieuw\STATIC\nieuwe_site" />
+      <recent name="C:\Users\carola\Desktop\Website PE1MUL nieuw\CSS" />
+      <recent name="C:\Users\carola\Desktop\Website PE1MUL nieuw\STATIC" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79220ff7-9d68-451c-a213-8c0e755a89a4" name="Default Changelist" comment="" />
+      <created>1576656652258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576656652258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576660484635">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="474" y="239" key="#com.intellij.fileTypes.FileTypeChooser/1440.-94.1680.1010/0.0.1440.860@0.0.1440.860" timestamp="1576660484635" />
+    <state x="500" y="187" key="FileChooserDialogImpl" timestamp="1576660766280">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="187" key="FileChooserDialogImpl/1440.-94.1680.1010/0.0.1440.860@0.0.1440.860" timestamp="1576660766280" />
+    <state x="374" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576851821416">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="374" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1440.-94.1680.1010/0.0.1440.860@0.0.1440.860" timestamp="1576851821416" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1576846007442">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/1440.-94.1680.1010/0.0.1440.860@0.0.1440.860" timestamp="1576846007442" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:/Flask-Bootcamp-master/.idea/Flask-Bootcamp-master.iml" filepath="F:/Flask-Bootcamp-master/.idea/Flask-Bootcamp-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HTML &amp; CSS/.idea/HTML &amp; CSS.iml" filepath="$PROJECT_DIR$/../HTML &amp; CSS/.idea/HTML &amp; CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Website PE1MUL nieuw.iml" filepath="$PROJECT_DIR$/.idea/Website PE1MUL nieuw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Website PE1MUL oud/.idea/Website PE1MUL oud.iml" filepath="$PROJECT_DIR$/../Website PE1MUL oud/.idea/Website PE1MUL oud.iml" />
+    </modules>
+  </component>
+</project>

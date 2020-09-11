@@ -1,0 +1,56 @@
+body {
+  background-image: radial-gradient(circle, rgba(27,156,91,0.83), rgba(152,212,124,0.80), rgba(70,149,33,0.93));
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-size: 45px;
+color: #218fc2;
+}
+
+h4 {
+font-size: 25px;
+color: #329fd1;
+}
+
+p {
+font-size: 20px;
+font-weight: 550;
+color: #E4E721;
+}
+
+a:link {
+color: #697dff;
+}
+
+a:visited {
+color: #3f4a91;
+}
+
+a:hover {
+color: #6a76c4;
+}
+
+a:active {
+color: #1c2773;
+}
+
+.hamcall {
+font-family: Timmana, sans-serif;
+font-size: 25px;
+color: #532F55;
+}
+
+.info {
+font-family: Roboto, sans-serif;
+font-size: 18px;
+color: #7E3A82;
+}
+
+.widget {
+padding: 10px 10px 10px 30px;
+margin: 0 0 5px;
+position: relative;
+left: 600px;
+Top: -850px;
+}
