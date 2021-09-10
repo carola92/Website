@@ -1,0 +1,113 @@
+body {
+  background-image: radial-gradient(circle, rgba(27,156,91,0.83), rgba(152,212,124,0.80), rgba(70,149,33,0.93));
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-size: 45px;
+color: #0066ff;
+}
+
+h4 {
+font-size: 25px;
+color: #0066ff;
+}
+
+p {
+font-size: 20px;
+font-weight: 550;
+}
+
+pre{
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+font-weight: 550;
+}
+
+a:link {
+color: #0033FF;
+}
+
+a:visited {
+color: #3f4a91;
+}
+
+a:hover {
+color: #6a76c4;
+}
+
+a:active {
+color: #1c2773;
+}
+
+.info {
+font-family: Roboto, sans-serif;
+font-size: 18px;
+color: #7E3A82;
+}
+
+.widget {
+padding: 10px 10px 10px 30px;
+margin: 0 0 5px;
+position: relative;
+left: 600px;
+Top: -850px;
+}
+
+.bron{
+color: #9311d0;
+}
+
+.artikel{
+color: #462b53;
+}
+
+.laatste{
+color: #660099;
+}
+
+.sterkte{
+color: #96144c;
+}
+
+.compterm{
+color: #9311d0;
+}
+
+.guide{
+color: #0066ff;
+}
+
+.terms{
+color: #462b53;
+}
+
+.groeten{
+color: #96144c;
+}
+
+.info {
+
+}
+
+th {
+text-align: center;
+vertical-align: top;
+}
+
+td {
+text-align: center;
+vertical-align: top;
+}
+
+.small {
+
+}
+
+.dank {
+
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}

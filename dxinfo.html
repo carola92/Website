@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DX Informatie</title>
+
+    <link rel="stylesheet" href=".\CSS_master.css">
+
+</head>
+<body>
+
+  <h1>DX INFORMATIE</h1>
+    <br><img SRC="./scanner2.gif"><br>
+  <hr class="solid">
+  <pre>
+  <h2 class="artikel">Hoogten, condities en afstanden op VHF</h2>
+  <hr class="solid">
+  <p class="artikel">
+  De twee-meter amateurband loopt in Europa van 144.000..146.000 MHz.
+  Een van de eigenschappen van dit VHF-gebied is, dat de verbindingen tot stand kunnen komen via de troposfeer.
+  De troposfeer is de luchtlaag boven de aarde, waarin zich de ons bekende meteorologische verschijnselen voordoen.
+  In tegenstelling tot de HF-amateurbanden, kunnen we op VHF geen gebruik maken van de opwaartse straling,
+  welke na reflectie tegen de heaveside- laag zorg draagt voor een verbinding op grote afstanden.  Ook de grondgolf is op VHF van minder belang.
+  In het VHF-gebied maakt men gebruik van ruimtestraling, welke vrijwel dezelfde eigenschappen bezitten als lichtgolven.
+  Afbuiging door reflecties vindt, onder normale omstandigheden, niet plaats. Wel ontstaat er enige afbuiging,
+  doordat de hogere luchtlagen ijler zijn dan de lagere.
+  Hierdoor is de maximaal te overbruggen afstand iets groter dan wanneer deze verbinding tot stand zou worden gebracht m.b.v. lichtgolven.
+  Bewezen kan worden, dat voor een direct-zicht-verbinding de formule geldt:
+                      ___      ___
+    a = 3,56 ( V h1 + V h2 ) km.
+  Hierin zijn h1 resp. h2 de hoogte van de beide antennes.
+  Voor VHF blijkt, dat i.v.m. de reeds beschreven aanwezige afbuiging de uitkomst kan worden verhoogd met 20%.
+  Daardoor wordt de formule dus:
+                      ___      ___
+    a = 4,27 ( V h1 + V h2 ) km.
+
+  Voorbeeld: Uw antenne staat op een hoogte van 12m en U wilt een verbinding tot stand brengen met een mobiel station.
+  Hoever kan deze auto zich van U verwijderen voordat de verbinding onmogelijk wordt?
+  We gaan er vanuit dat de hoogte van de antenne op de auto 2m bedraagt.
+                       ___     ___
+    a = 4,27 ( V h1 + V h2 ) km.
+                       ___      __
+     a = 4,27 ( V 12 + V 2 ) = ca. 21 km.
+
+  Voorbeeld 2: U wilt een verbinding maken over een afstand van 40 km. Wat is dan de minimale hoogte van de antenne van het tegenstation?
+                         ___      ___
+     40 = 4,27 ( V 12 + V h2 ) km.
+      ___      ___
+    V 12 + V h2 = ( 40 : 4,27 ) = 9,4
+       ___              ___
+     V h2 = 9,4 - V 12 = 5,9
+                   2
+     h2 = 5,94  =>   h2 = 35m
+
+  Over deze afstand zal natuurlijk ook demping optreden.
+  Voor VHF geldt een trajectdemping tussen twee isotropestralers van    4 x pi x a
+                                                                                                        20 log ----------
+                                                                                                                     lambda
+
+  Dit is zuiver theoretisch. Over een afstand van 6 km moet men rekenen op een demping van:
+
+                 4 x pi x 6000
+      20 log --------------- = 91 dB
+                       2,068
+
+  Dit houdt in, dat bij een zendvermogen van 10 Watt, een vermogen van 8 nW aan de ontvangantenne aankomt. (Bij 50 Ohm zou dit overeenkomen met 600 uV)
+  Hoewel de formule voor de maximale afstand theoretisch juist is,
+  blijkt in de praktijk dat onder normale omstandigheden ook grotere afstanden kunnen worden overbrugt.
+
+  In het Duitse tijdschrift QRV van october 1972 staat echter een formule, welke veel meer op praktijkervaring is gebaseerd.
+  De formule wordt aangehaald i.v.m. de planning van een relaiszendernet in DL.
+  Met deze formule kan de plaatselijke veldsterkte worden berekend.
+                                    ___
+                          10 x V erp x h1 x h2 x 4
+  Veldsterkte E = ------------------------   uV/m
+                                                2
+                                 Labda x a
+
+  Om nu de spanning aan de antenneklemmen te berekenen, moet men de veldsterkte vermenigvuldigen met:   Lambda
+                                         ---------
+                                           2 x pi
+
+  De gevonden spanning is de E.M.K.  De klemspanning zal bij juiste aanpassing de helft hiervan zijn.    Uk is dus 1/2 E.M.K.
+  Vatten we de formules samen in een formule, dan krijgen we:
+
+                      ___
+            3,2 x V erp x h1 x h2
+    Uk = ---------------------   uV
+                         2
+                        a
+
+  Hierin zijn afstanden in kilometers en de antennehoogten in meters.
+
+  Voorbeeld:
+  De afstand Groningen-Vlieland is 100 km. Twee mensen willen met een portofoon een verbinding maken.
+  De een staat op de vuurtoren: h1 = 55 m. De ander staat op een gebouw van 60 m in Groningen. Het vermogen van beide portofoons is 2 W erp.
+  Volgens de eerste formule is geen verbinding mogelijk; bij deze hoogten zou maximaal 64 km kunnen worden gehaald. Volgens de tweede formule krijgen we:
+                      ____
+            3,2 x V erp x h1 x h2 3,2 x 1,4 x 55 x 60
+      Uk = --------------------- = ------------------- = 1,48 uV
+                            2                           10.000
+                           a
+
+  Hieruit blijkt, dat een verbinding goed mogelijk is.
+  Een andere zeer bekende vuistregel is, dat een verdubbeling van de antennehoogte een winst oplevert van 6 dB.
+  Indien we in bovenstaande formule 2h1 invullen, blijkt ook Uk 2 keer zo groot te worden.
+
+  Ander voorbeeld: De afstand Bedum Winschoten is 34 km. OM 1 heeft zijn antenne op een hoogte van 16 meter staan.
+  OM 2 wil proberen een mobiele verbinding te maken.
+  Volgens de formule voor zichtverbinding is dit niet mogelijk. Wanneer we echter de andere formule hanteren zien we het volgende:
+  OM 1 gebruikt een porto met een erp van 1 W.
+                                       __
+                            3,2 x V 1 x 16 x 2
+      Uk wordt dan: ------------------ = 0,09 uV
+                                             2
+                                         34
+
+  Dit lukt dus nog steeds niet. Wanneer echter OM 1 een antenne gaat gebruiken welke een winst geeft van 10 dB en het zendvermogen opvoert naar 10 W,
+  zult U zien dat het wel gaat.
+  De spanning bij het mobiele station wordt dan:
+                        ____
+             3,2 x V 100 x 16 x 2
+      Uk = -------------------- = 0,89 uV
+                               2
+                            34
+
+  Indien OM 2 over een goede ontvanger beschikt, zal deze verbinding mogelijk zijn.
+  Nu kunnen we ook zien dat iedere meter hoogte belangrijk is. Laat OM 2 maar eens over een brug rijden, welke 2 meter hoger ligt.
+                        ____
+             3,2 x V 100 x 16 x ( 2 x 2 )
+      Uk = ---------------------------- = 1,77 uV
+                                2
+                             34
+
+  Hieruit blijkt dus de 6 dB winst bij verdubbeling van de antennehoogte. Rijdt men dus op een snelweg,
+  zal men dus een grotere actieradius hebben, dan iemand die ernaast rijdt, daar die weg vaak zo'n 2 meter lager ligt.
+
+  Nog een voorbeeld:
+
+  Twee stations willen een verbinding maken tussen Vlieland en Groningen; Afstand: 100 km. Hoogte Groningen: 12 m NAP.
+  Hoogte Vlieland: 12 m NAP.  Vermogen: 25 W
+                                                                           S+N
+  Gevoeligheid ontvangers : 0,4 uV voor 30 dB   ---
+                                                                              N
+  Kabel : 15m coax RG 59 (demping 4 dB/30 m)
+  Als de kabel 15 m lang is, veroorzaakt deze een demping van 2 dB. Dit gebeurt zowel bij ontvangen als bij zenden.
+  Aan de antenne komt dus 25 : 1,58 = 15,8 W aan.
+  Door de antenne wordt dit met 10 dB, dus 10 x versterkt. De erp is dus 158 W.
+  Aan ontvangstzijde is de spanning:
+                   ____
+      ( 3,2 x V erp ) x h1 x h2     ( 3,2 x 12,7 ) x 12 x 12
+       -------------------------   =  -------------------------   = 0.6 uV
+                      2                                      10.000
+                     a
+
+  Daar de ontvangantenne 10 dB versterkt, maar de kabel 2 dB verzwakt, komt de totale versterking aan de ontvanstzijde op 8 dB.
+  Dit komt overeen met een spanningsversterking van 2,5 x.  Dus de spanning op de ingang van de ontvanger is dan 1,5 uV.
+
+  VRAAG: Wat is de maximale afstand tussen twee mobiele stations,
+  elk met een zendvermogen van 10 W erp en een minimaal benodigde ingangsspanning van 0,5 uV?
+                                     _____________________
+  BEREKENING:        /           ___
+                                   / 3,2 x V erp x h1 x h2
+                         a  = V   ---------------------
+                                                    Uk
+                                  _______________
+                                /   3,2 x 3,16 x 2 x 2
+                       a = V    --------------------   =  9 km.
+                                                 0,5
+
+  Voor de duidelijkheid moet erop worden gewezen dat bovenstaande formules niet altijd opgaan. Bij hevige sneeuwval en grote regengebieden,
+  zal de trajectdemping vaak groter zijn, en de veldsterkten dus kleiner.
+  In andere gevallen kan het zijn dat de veldsterkten juist groter zijn. Indien men over de afstand Groningen R'dam de spanning uitrekent,
+  komt dit op 0,08 uV.
+  Maar met 100 W in SSB lukten 80 % van de verbindingen. In het voorgaande is gesproken over omstandigheden tijdens normale condities.
+  Regelmatig komt het voor, dat de condities beter dan normaal zijn.
+  Daaronder verstaat men, de mogelijkheid om op VHF grotere afstanden te kunnen overbruggen.
+  Normaal zal de temperatuur met de hoogte evenredig afnemen. Het kan echter voorkomen, dat de onderste luchtlagen sneller afkoelen dan de hogere.
+  Dit wordt temperatuur-inversie genoemd. Het scheidingsvlak van deze luchtlagen,
+  zal door verschil in brekingsindex een buiging van de radiogolven veroorzaken. Wanneer daar ook nog een afnemend vochtgehalte bijkomt,
+  zullen de signalen de kromming van de aarde volgen, waardoor verbindingen mogelijk zijn over honderden kilometers.
+  Een andere mogelijkheid van condities zijn ducts. Dit zijn zeer smalle reflectielagen boven zee. Wanneer zo'n duct optreedt,
+  zullen de signalen worden voortgeplant door reflecties tussen genoemde luchtlagen en de zee.
+  Voorwaarde is wel, dat beide antennes zich bevinden in de duct. Wanneer een van de antennes zich hoger of lager bevindt,
+  gaat de verbinding niet door.
+  Een andere mogelijkheid voor verbindingen op lange afstand, is het gebruiken van E- of F-laag reflecties.
+  In amateurkringen wordt dit soort verbindingenn aangeduid met sporadische E- of F- laag reflecties.
+  De reflecties ontstaan door ionisatie van deze lagen.
+  Het voordeel voor VHF is een nadeel voor HF, daar deze frequenties ook worden gereflecteerd,
+  zodat op 20 m slechts beperkt verkeer mogelijk is.
+  Deze verbindingen noemt men short-skip verbindingen. Indien men op 20 m luistert en men hoort 'locale' stations,
+  kan men op VHF grote afstanden overbruggen. Als laatste mogelijkheid voor 'DX', zijn 'AURORA' reflecties.
+  M.a.w. reflecties tegen het Noorderlicht; wat vrij regelmatig voorkomt.
+  Door de ontstane vervorming, is een verbinding slechts mogelijk in telegrafie en in mindere mate in SSB.
+  Tijdens het widdelen van de seizoenen, ontstaan de meeste condities. E- en F-laag reflecties komen meestal voor in de zomermaanden.
+
+  Hoe kan men condities herkennen zonder steeds aan de onvanger te moeten draaien?
+  Op HF zijn de condities over langere tijd te voorspellen. Lijsten daarvan zijn te vinden in diverse amateurtijdschriften.
+  Voor VHF ligt dat anders.
+  Over langere tijd kan er zelfs helemaal niets van worden gezegd. De condities op VHF zijn zo wispelturig als het weer.
+  Voor AURORA bestaat er een waarschuwingsdienst. De leden van die dienst bellen elkaar door dat er aurora is.
+  Daarmee wordt gestart in Noorwegen.
+  Voor troposferische condities is men aangewezen op eigen waarnemingen.
+  Een uitzondering hierop zijn de door het ANP gegeven waarschuwingen van milieuverontreiniging in het Rijnmond gebied.
+  Bij temperatuurinversies zal nl. ook de rook en smog blijven hangen.
+  Dit wordt in verschillende waarschuwingsfasen doorgegegeven. Ook de TV is een goed hulpmiddel om condities te constateren.
+  Indien er op een van de frequenties interferentie ontstaat, vooral op een 'Nederlanse' frequentie, moeten er condities zijn.
+  Voor TVI hoeft men niet bang te zijn; die waren er al zonder onze hulp. Ook het weerkaartje is een goed hulpmiddel.
+  Is het droog en bevindt zich oostelijk van ons een hogedrukgebied, dan zijn er tegen de westflank van dat hogedrukgebied
+  meestal mogelijkheden tot inversies en dus DX.  Nog een conditiemeter is de barometer.
+  Wordt de luchtdruk plotseling lager, of soms ook als deze hoger wordt, dan zijn er meestal condities.
+
+  Enkele andere recepten zijn:
+    1. Kleur van het firmament
+    2. Zicht
+    3. Wind
+    4. Wolkentekening
+    5. Mist, regen en onweer
+    6. Temperatuur
+
+  1: Is de lucht diepblauw, helder en vrij van wolken, dan zijn de luchtlagen in de normale volgorde gerangschikt en is er
+      geen kans op condities.
+
+  2: Bij een zicht van enige kilometers zijn er geen mogelijkheden voor DX.
+
+  3: Een absolute windstilte in de ochtend, en het later langzaam opkomen van een wind, welke steeds sterker wordt,
+      betekent geen goede DX mogelijkheden. Echter, tegen de avond kan dat veranderen en is de kans op condities weer
+      groter. Is het evenwel de gehele dag windstil geweest en ontstaat er tegen de avond een zwakke wind die spoedig weer
+      afneemt, bestaan er redelijke DX kansen. Is er gedurende de gehele dag en nacht wind, zijn de condities op VHF slecht.
+
+  4: Bestudering van de wolkentekening levert betrouwbare gegevens op.
+        a: Is de ochtend wolkenloos en komen er tegen 9 a 10 uur kleine schapenwolken tegen de horizon in het zicht, dan zijn
+            er tegen de middag DX mogelijkheden te verwachten.
+        b: Groeien die wolken snel uit tot stapelwolken en steekt daarnaast ook nog wind op, kan men zich beter voorbereiden
+            op onweer. Bovendien zal men last hebben van statische lading.
+        c: Worden de wolken snel groot en smelten ze samen tot een gesloten donker wolkendek, zijn temperatuurinversies te
+            verwachten en ontstaan soms ongewoon goede condities.
+       d: Neemt de bewolking tegen de middag niet meer toe, maar lost de bewolking zelfs weer op, dan zijn uitgesproken
+           goede lange afstand verbindingen mogelijk.
+       e: Verdwijnen de wolkenvelden in de avond langzaam, kan door afkoeling van het aardoppervlak temperatuurinversie
+           ontstaan, waardoor gedurende de nacht DX mogelijk is.
+           In de vroege ochtend kunnen de condities zelfs extreem goed zijn.
+
+  5. a: Bij lage mist, niet plaatselijk, zijn er goede mogelijkheden tot DX.
+      b: Op condities hoeft men niet te rekenen wanneer de mist zich door afkoeling in de avond heeft gevormd, er eerst regen
+          viel en er een grote luchtvochtigheid heerst.
+      c: Treedt de mist 'savonds op, zonder voorafgaande regen en is er een zwakke bewolking, kunnen er condities zijn.
+          Tijdens het naderbij komen van onweer, is onder bepaalde omstandigheden DX niet uitgesloten.
+          Een zicht van 90-100 km belooft binnen korte tijd goede condities. Lage damp, niet zijnde mist, betekent ook goed
+           DX-weer.
+
+  6: Valt de temperatuur van 10 graden tegen 19.00 uur, terug tot 3 graden of minder 's-morgens, kan men rekenen op zeer
+      goede condities. Dit zal vooral voorkomen, wanneer het voor zonsopgang helder is, er een lage nevel hangt en het
+      windstil is.
+
+  73, de PE1AUK
+</p>
+</pre>
+<p><a href=".\index.html">Naar Index Pagina</a></p>
+
+</body>
+</html>
+
+</body>
+</html>
